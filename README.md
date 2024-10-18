@@ -1,2 +1,3 @@
 # ssh-tool
-manage-server
+a tool to manage server
+code: pyqt5
