@@ -1,0 +1,4 @@
+2024-11-07 14:05:05,536 - E:/work/chiebot/Documents/py_test/chiebot-PyGUITool/main.py[line:978] - INFO: 点击了登录按钮onButtonClick
+2024-11-07 14:05:05,548 - E:/work/chiebot/Documents/py_test/chiebot-PyGUITool/main.py[line:984] - INFO: ssh信息校验通过
+2024-11-07 14:05:06,396 - E:/work/chiebot/Documents/py_test/chiebot-PyGUITool/main.py[line:128] - INFO: 已登录主机:192.168.0.173 登录账号:patrol  系统类型:巡视系统
+2024-11-07 14:05:06,437 - E:/work/chiebot/Documents/py_test/chiebot-PyGUITool/main.py[line:956] - INFO: 已登录主界面

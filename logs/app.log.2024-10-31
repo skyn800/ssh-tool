@@ -1,0 +1,16 @@
+2024-10-31 15:51:52,181 - E:/work/chiebot/Documents/py_test/chiebot-PyGUITool/main.py[line:978] - INFO: 点击了登录按钮onButtonClick
+2024-10-31 15:51:52,194 - E:/work/chiebot/Documents/py_test/chiebot-PyGUITool/main.py[line:984] - INFO: ssh信息校验通过
+2024-10-31 15:51:54,146 - E:/work/chiebot/Documents/py_test/chiebot-PyGUITool/main.py[line:128] - INFO: 已登录主机:192.168.0.187 登录账号:robot  系统类型:机器人系统
+2024-10-31 15:51:54,178 - E:/work/chiebot/Documents/py_test/chiebot-PyGUITool/main.py[line:956] - INFO: 已登录主界面
+2024-10-31 15:52:12,131 - E:/work/chiebot/Documents/py_test/chiebot-PyGUITool/main.py[line:978] - INFO: 点击了登录按钮onButtonClick
+2024-10-31 15:52:12,131 - E:/work/chiebot/Documents/py_test/chiebot-PyGUITool/main.py[line:984] - INFO: ssh信息校验通过
+2024-10-31 15:52:13,624 - E:/work/chiebot/Documents/py_test/chiebot-PyGUITool/main.py[line:128] - INFO: 已登录主机:192.168.0.57 登录账号:robot  系统类型:机器人系统
+2024-10-31 15:52:13,653 - E:/work/chiebot/Documents/py_test/chiebot-PyGUITool/main.py[line:956] - INFO: 已登录主界面
+2024-10-31 15:52:28,576 - E:/work/chiebot/Documents/py_test/chiebot-PyGUITool/main.py[line:978] - INFO: 点击了登录按钮onButtonClick
+2024-10-31 15:52:28,576 - E:/work/chiebot/Documents/py_test/chiebot-PyGUITool/main.py[line:984] - INFO: ssh信息校验通过
+2024-10-31 15:52:29,656 - E:/work/chiebot/Documents/py_test/chiebot-PyGUITool/main.py[line:128] - INFO: 已登录主机:192.168.0.79 登录账号:robot  系统类型:机器人系统
+2024-10-31 15:52:29,700 - E:/work/chiebot/Documents/py_test/chiebot-PyGUITool/main.py[line:956] - INFO: 已登录主界面
+2024-10-31 15:52:43,546 - E:/work/chiebot/Documents/py_test/chiebot-PyGUITool/main.py[line:978] - INFO: 点击了登录按钮onButtonClick
+2024-10-31 15:52:43,546 - E:/work/chiebot/Documents/py_test/chiebot-PyGUITool/main.py[line:984] - INFO: ssh信息校验通过
+2024-10-31 15:52:44,524 - E:/work/chiebot/Documents/py_test/chiebot-PyGUITool/main.py[line:128] - INFO: 已登录主机:192.168.0.78 登录账号:robot  系统类型:机器人系统
+2024-10-31 15:52:44,563 - E:/work/chiebot/Documents/py_test/chiebot-PyGUITool/main.py[line:956] - INFO: 已登录主界面

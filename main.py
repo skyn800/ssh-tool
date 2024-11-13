@@ -64,7 +64,6 @@ class Main_window(QMainWindow):
         self.ssh_instance = ssh_thread
         self.file_exec_instance = file_exec_instance
         self.last_clicked_button = None
-        self.logwindows = {}
         self.initUI()
 
     def initTab(self):
@@ -148,18 +147,14 @@ class Main_window(QMainWindow):
         @return:
         """
         # self.last_clicked_button = self.sender()
+
         btn_name = self.sender().text()
-        if self.logwindows.get(btn_name):
-            self.logwindows[btn_name].show()
-            self.logwindows[btn_name].activateWindow()
-        else:
-            new_win = NewWindow(btn_name, self)
-            new_win.show()
-            ssh_command = 'docker logs -f --tail 100 {containername}'.format(containername=btn_name)
-            self.command_thread = CommandThread(self.ssh_instance.ssh_client, ssh_command)
-            self.command_thread.commandResult.connect(new_win.append_text)
-            self.command_thread.start()
-            self.logwindows[btn_name] = new_win
+        new_win = NewWindow(btn_name, self)
+        new_win.show()
+        ssh_command = 'docker logs -f --tail 100 {containername}'.format(containername=btn_name)
+        self.command_thread = CommandThread(self.ssh_instance.ssh_client, ssh_command)
+        self.command_thread.commandResult.connect(new_win.append_text)
+        self.command_thread.start()
 
     # def start_showlogs(self):
         # 设置QTimer开始计时，且设定时间为1000ms
@@ -316,9 +311,17 @@ class Main_window(QMainWindow):
                                          QMessageBox.Yes | QMessageBox.No, QMessageBox.No)
             if reply == QMessageBox.Yes:
                 self.zip_text.append('选择了文件：{file}'.format(file=filename))
-                self.start_upload_file(local_path=local_path,remote_path=remote_path)
-                self.ssh_instance.execute_ssh_command('docker restart {svc}'.format(svc=svc_name))
-                self.zip_text.append('重启服务：{svc}'.format(svc=svc_name))
+                com_response, err_response = self.ssh_instance.execute_ssh_command('docker stop {svc} && cd ~/chiebot-docker-app/backend/jar \
+                     && mv {svc}.jar {svc}.bak'.format(svc=svc_name))
+                err_text = err_response.read().decode('utf-8')
+                if err_text:
+                    self.zip_text.append(err_text)
+                    QMessageBox.critical(self, 'Command Execution Failed', '已停止上传{svc}.jar,联系开发查看后重新更新'.format(svc=svc_name))
+                else:
+                    self.zip_text.append('备份{svc}.jar完成'.format(svc=svc_name))
+                    self.start_upload_file(local_path=local_path,remote_path=remote_path)
+                    self.ssh_instance.execute_ssh_command('docker start {svc}'.format(svc=svc_name))
+                    self.zip_text.append('启动服务：{svc}'.format(svc=svc_name))
             else:
                 log.logger.info('取消选择文件{file}'.format(file=filename))
         else:

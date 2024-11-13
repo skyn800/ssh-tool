@@ -56,7 +56,7 @@ class CommandThread(QThread):
                 errline = ssh_stderr.readline()
                 if not errline:
                     break
-                self.commandResult.emit('<span style="color: red;">ERR-------' + errline.strip('\n') + '</span>')
+                self.commandResult.emit(errline.strip('\n'))
         except paramiko.ssh_exception.SSHException as e:
             self.commandResult.emit(f"Error executing command: {e}")
 

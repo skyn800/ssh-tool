@@ -1,0 +1,46 @@
+2024-11-08 14:43:33,853 - E:/work/chiebot/Documents/py_test/chiebot-PyGUITool/main.py[line:978] - INFO: 点击了登录按钮onButtonClick
+2024-11-08 14:43:33,858 - E:/work/chiebot/Documents/py_test/chiebot-PyGUITool/main.py[line:984] - INFO: ssh信息校验通过
+2024-11-08 14:43:35,490 - E:/work/chiebot/Documents/py_test/chiebot-PyGUITool/main.py[line:128] - INFO: 已登录主机:192.168.0.173 登录账号:patrol  系统类型:巡视系统
+2024-11-08 14:43:35,544 - E:/work/chiebot/Documents/py_test/chiebot-PyGUITool/main.py[line:956] - INFO: 已登录主界面
+2024-11-08 14:46:15,265 - E:/work/chiebot/Documents/py_test/chiebot-PyGUITool/main.py[line:972] - INFO: 点击了登录按钮onButtonClick
+2024-11-08 14:46:15,267 - E:/work/chiebot/Documents/py_test/chiebot-PyGUITool/main.py[line:978] - INFO: ssh信息校验通过
+2024-11-08 14:46:16,553 - E:/work/chiebot/Documents/py_test/chiebot-PyGUITool/main.py[line:127] - INFO: 已登录主机:192.168.0.173 登录账号:patrol  系统类型:巡视系统
+2024-11-08 14:46:16,584 - E:/work/chiebot/Documents/py_test/chiebot-PyGUITool/main.py[line:950] - INFO: 已登录主界面
+2024-11-08 15:04:22,608 - E:/work/chiebot/Documents/py_test/chiebot-PyGUITool/main.py[line:977] - INFO: 点击了登录按钮onButtonClick
+2024-11-08 15:04:22,610 - E:/work/chiebot/Documents/py_test/chiebot-PyGUITool/main.py[line:983] - INFO: ssh信息校验通过
+2024-11-08 15:04:23,678 - E:/work/chiebot/Documents/py_test/chiebot-PyGUITool/main.py[line:127] - INFO: 已登录主机:192.168.0.173 登录账号:patrol  系统类型:巡视系统
+2024-11-08 15:04:23,713 - E:/work/chiebot/Documents/py_test/chiebot-PyGUITool/main.py[line:955] - INFO: 已登录主界面
+2024-11-08 15:04:29,643 - E:/work/chiebot/Documents/py_test/chiebot-PyGUITool/main.py[line:307] - INFO: 上传jar包路径:/patrol/chiebot-docker-app/backend/jar/patrol-account.jar
+2024-11-08 15:11:30,687 - E:/work/chiebot/Documents/py_test/chiebot-PyGUITool/main.py[line:974] - INFO: 点击了登录按钮onButtonClick
+2024-11-08 15:11:30,691 - E:/work/chiebot/Documents/py_test/chiebot-PyGUITool/main.py[line:980] - INFO: ssh信息校验通过
+2024-11-08 15:11:31,793 - E:/work/chiebot/Documents/py_test/chiebot-PyGUITool/main.py[line:127] - INFO: 已登录主机:192.168.0.173 登录账号:patrol  系统类型:巡视系统
+2024-11-08 15:11:31,825 - E:/work/chiebot/Documents/py_test/chiebot-PyGUITool/main.py[line:952] - INFO: 已登录主界面
+2024-11-08 15:11:40,091 - E:/work/chiebot/Documents/py_test/chiebot-PyGUITool/main.py[line:307] - INFO: 上传jar包路径:/patrol/chiebot-docker-app/backend/jar/patrol-account.jar
+2024-11-08 15:14:32,040 - E:/work/chiebot/Documents/py_test/chiebot-PyGUITool/main.py[line:977] - INFO: 点击了登录按钮onButtonClick
+2024-11-08 15:14:32,043 - E:/work/chiebot/Documents/py_test/chiebot-PyGUITool/main.py[line:983] - INFO: ssh信息校验通过
+2024-11-08 15:14:33,149 - E:/work/chiebot/Documents/py_test/chiebot-PyGUITool/main.py[line:127] - INFO: 已登录主机:192.168.0.173 登录账号:patrol  系统类型:巡视系统
+2024-11-08 15:14:33,205 - E:/work/chiebot/Documents/py_test/chiebot-PyGUITool/main.py[line:955] - INFO: 已登录主界面
+2024-11-08 15:14:48,120 - E:/work/chiebot/Documents/py_test/chiebot-PyGUITool/main.py[line:307] - INFO: 上传jar包路径:/patrol/chiebot-docker-app/backend/jar/patrol-account.jar
+2024-11-08 15:14:49,338 - E:/work/chiebot/Documents/py_test/chiebot-PyGUITool/main.py[line:322] - INFO: 取消选择文件patrol-account.jar
+2024-11-08 15:14:59,652 - E:/work/chiebot/Documents/py_test/chiebot-PyGUITool/main.py[line:307] - INFO: 上传jar包路径:/patrol/chiebot-docker-app/backend/jar/patrol-upms.jar
+2024-11-08 15:18:36,760 - E:/work/chiebot/Documents/py_test/chiebot-PyGUITool/main.py[line:977] - INFO: 点击了登录按钮onButtonClick
+2024-11-08 15:18:36,763 - E:/work/chiebot/Documents/py_test/chiebot-PyGUITool/main.py[line:983] - INFO: ssh信息校验通过
+2024-11-08 15:18:38,375 - E:/work/chiebot/Documents/py_test/chiebot-PyGUITool/main.py[line:127] - INFO: 已登录主机:192.168.0.173 登录账号:patrol  系统类型:巡视系统
+2024-11-08 15:18:38,422 - E:/work/chiebot/Documents/py_test/chiebot-PyGUITool/main.py[line:955] - INFO: 已登录主界面
+2024-11-08 15:18:45,090 - E:/work/chiebot/Documents/py_test/chiebot-PyGUITool/main.py[line:307] - INFO: 上传jar包路径:/patrol/chiebot-docker-app/backend/jar/patrol-upms.jar
+2024-11-08 15:32:51,437 - E:/work/chiebot/Documents/py_test/chiebot-PyGUITool/main.py[line:980] - INFO: 点击了登录按钮onButtonClick
+2024-11-08 15:32:51,440 - E:/work/chiebot/Documents/py_test/chiebot-PyGUITool/main.py[line:986] - INFO: ssh信息校验通过
+2024-11-08 15:32:52,507 - E:/work/chiebot/Documents/py_test/chiebot-PyGUITool/main.py[line:127] - INFO: 已登录主机:192.168.0.173 登录账号:patrol  系统类型:巡视系统
+2024-11-08 15:32:52,540 - E:/work/chiebot/Documents/py_test/chiebot-PyGUITool/main.py[line:958] - INFO: 已登录主界面
+2024-11-08 15:33:03,474 - E:/work/chiebot/Documents/py_test/chiebot-PyGUITool/main.py[line:307] - INFO: 上传jar包路径:/patrol/chiebot-docker-app/backend/jar/patrol-upms.jar
+2024-11-08 15:33:45,092 - E:/work/chiebot/Documents/py_test/chiebot-PyGUITool/main.py[line:307] - INFO: 上传jar包路径:/patrol/chiebot-docker-app/backend/jar/patrol-upms.jar
+2024-11-08 15:34:23,582 - E:/work/chiebot/Documents/py_test/chiebot-PyGUITool/main.py[line:307] - INFO: 上传jar包路径:/patrol/chiebot-docker-app/backend/jar/patrol-upms.jar
+2024-11-08 15:39:59,781 - E:/work/chiebot/Documents/py_test/chiebot-PyGUITool/main.py[line:980] - INFO: 点击了登录按钮onButtonClick
+2024-11-08 15:39:59,784 - E:/work/chiebot/Documents/py_test/chiebot-PyGUITool/main.py[line:986] - INFO: ssh信息校验通过
+2024-11-08 15:40:00,689 - E:/work/chiebot/Documents/py_test/chiebot-PyGUITool/main.py[line:127] - INFO: 已登录主机:192.168.0.173 登录账号:patrol  系统类型:巡视系统
+2024-11-08 15:40:00,720 - E:/work/chiebot/Documents/py_test/chiebot-PyGUITool/main.py[line:958] - INFO: 已登录主界面
+2024-11-08 15:40:06,341 - E:/work/chiebot/Documents/py_test/chiebot-PyGUITool/main.py[line:307] - INFO: 上传jar包路径:/patrol/chiebot-docker-app/backend/jar/patrol-upms.jar
+2024-11-08 15:40:45,230 - E:/work/chiebot/Documents/py_test/chiebot-PyGUITool/main.py[line:307] - INFO: 上传jar包路径:/patrol/chiebot-docker-app/backend/jar/patrol-upms.jar
+2024-11-08 15:42:09,348 - E:/work/chiebot/Documents/py_test/chiebot-PyGUITool/main.py[line:392] - INFO: 上传upgrade包路径:/patrol/upgrade.zip
+2024-11-08 15:42:43,879 - E:/work/chiebot/Documents/py_test/chiebot-PyGUITool/main.py[line:392] - INFO: 上传upgrade包路径:/patrol/upgrade.zip
+2024-11-08 16:00:09,969 - E:/work/chiebot/Documents/py_test/chiebot-PyGUITool/main.py[line:344] - INFO: 上传dist包路径:/patrol/chiebot-docker-app/frontend/dist.zip
