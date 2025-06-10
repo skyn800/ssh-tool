@@ -37,6 +37,7 @@ class FileExec():
 # 突出了INFO,ERROR,WARN颜色变化
 class CommandThread(QThread):
     commandResult = pyqtSignal(str)  # 自定义信号，用于发送命令的输出
+    finished_signal = pyqtSignal()  # 新增信号，用于通知主线程本线程执行完成
 
     def __init__(self, ssh_client, ssh_command):
         super(CommandThread, self).__init__()
@@ -59,6 +60,8 @@ class CommandThread(QThread):
                 self.commandResult.emit(errline.strip('\n'))
         except paramiko.ssh_exception.SSHException as e:
             self.commandResult.emit(f"Error executing command: {e}")
+        finally:
+            self.finished_signal.emit()  # 在执行完命令相关操作后，发射finished_signal信号，表示线程执行完成
 
     def format_line(self, line):
         if 'INFO' in line:
@@ -68,31 +71,6 @@ class CommandThread(QThread):
         elif 'ERROR' in line:
             line = line.replace('ERROR', '<span style="color: #FF0000;">ERROR</span>')
         return line
-
-# 纯文本输出
-# class CommandThread(QThread):
-#     commandResult = pyqtSignal(str)  # 自定义信号，用于发送命令的输出
-#
-#     def __init__(self, ssh_client, ssh_command):
-#         super(CommandThread, self).__init__()
-#         self.ssh_client = ssh_client
-#         self.ssh_command = ssh_command
-#
-#     def run(self):
-#         try:
-#             ssh_stdin, ssh_stdout, ssh_stderr = self.ssh_client.exec_command(self.ssh_command)
-#             while True:
-#                 line = ssh_stdout.readline()
-#                 if not line:
-#                     break
-#                 self.commandResult.emit(line.strip('\n'))
-#             while True:
-#                 errline = ssh_stderr.readline()
-#                 if not errline:
-#                     break
-#                 self.commandResult.emit('ERR-------'+errline.strip('\n'))
-#         except paramiko.ssh_exception.SSHException as e:
-#             self.commandResult.emit(f"Error executing command: {e}")
 
 
 class Pyssh(QThread):
@@ -122,7 +100,8 @@ class Pyssh(QThread):
         if self.ssh_client and self.transport.is_active():
             try:
                 ssh_stdin, ssh_stdout, ssh_stderr = self.ssh_client.exec_command(ssh_command)
-                return ssh_stdout, ssh_stderr
+                return_code = ssh_stdout.channel.recv_exit_status()     # <class 'int'>
+                return ssh_stdout, ssh_stderr, return_code
             except ssh_exception.SSHException as e:
                 print(f"Error executing command: {e}")
         else:

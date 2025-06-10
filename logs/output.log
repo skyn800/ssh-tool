@@ -1,0 +1,4 @@
+选择了文件：createuser.sh
+id: “robot”：无此用户
+/root/createuser.sh: 第 31 行：[: ==：需要一元表达式
+useradd：UID 1100 并不唯一
