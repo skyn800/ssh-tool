@@ -1,0 +1,5 @@
+2025-06-03 14:11:24,987 - E:\work\py_test\chiebot-PyGUITool\main.py[line:2166] - INFO: 点击了登录按钮onButtonClick
+2025-06-03 14:11:24,993 - E:\work\py_test\chiebot-PyGUITool\main.py[line:2172] - INFO: ssh信息校验通过
+2025-06-03 14:11:24,993 - E:\work\py_test\chiebot-PyGUITool\main.py[line:2172] - INFO: ssh信息校验通过
+2025-06-03 14:11:25,966 - E:\work\py_test\chiebot-PyGUITool\main.py[line:496] - INFO: 已登录主机:192.168.0.33 登录账号:patrol  系统类型:巡视系统
+2025-06-03 14:11:25,966 - E:\work\py_test\chiebot-PyGUITool\main.py[line:496] - INFO: 已登录主机:192.168.0.33 登录账号:patrol  系统类型:巡视系统
